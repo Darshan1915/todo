@@ -1,0 +1,10 @@
+main{
+    border: 5px solid darkred;
+    /*width: 50%;*/
+    width: 50vw;
+}
+
+section{
+    border: 5px dashed red;
+    width: 50%;
+}

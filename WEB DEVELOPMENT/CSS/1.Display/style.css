@@ -1,0 +1,36 @@
+*{
+    border: 1px  ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to left, rgb(80, 80, 235), rgb(191, 191, 246))
+}
+
+ul{
+    padding: 30px 0;
+    font-size: 30px;
+    /*list-style-type: none;*/
+    text-align: right;
+    background-color: black;
+    color: aliceblue;
+}
+
+.abc{
+    display: inline;
+}
+
+.abc:hover{
+    color: rgb(245, 9, 9);
+    cursor: pointer;
+}
+.ordere-list{
+    font-size: 20px;
+}
+.H2{
+    color: aliceblue;
+}

@@ -1,0 +1,13 @@
+body {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(43, 226, 159);
+    background-color: rgba(179, 255, 0, 0.056);
+}
+#abcd{
+    color: rgba(127, 176, 255, 0.948);
+}
+.ABCD{
+    color: aqua;
+}

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+.body{
+    font-family: 'Lato', sans-serif;
+}
+
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(image/Secretgarden.jpg);
+    /* background-repeat: repeat; */
+    background-size: cover;
+    /* background: linear-gradient(to right, rgb(174, 213, 239),#195bbf) ; */
+}
+
+.inner-box{
+    
+    width: 400px;
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 20px 40px;
+    /* filter: blur(8px); */
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgb(101, 155, 231) ;
+    z-index: 2;
+}
+
+.signup-header h1{
+    text-align: center;
+    font-size: 2.2rem;
+    color: rgb(16, 16, 16);
+    margin: 0 2px;
+}
+.signup-header p{
+    text-align: center;
+    font-size: 0.9rem;
+    color: rgb(52, 46, 46);
+}
+
+.signup-body {
+    margin: 20px 0;
+}
+.signup-body p{
+    margin: 10px 0;
+}
+.signup-body p label{
+    display: block;
+    font-weight: bold;
+}
+.signup-body p input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cccc;
+    border-radius: 4px;
+}
+#sumbitt{
+    font-size: large;
+    background-color: rgb(101, 155, 231);
+    color: white;
+    cursor: pointer;
+    border: none;
+    width:100px;
+    margin: 0 100px;
+}
+#sumbitt :hover{
+    background-color: blue;
+}
+
+.signup-footer p{
+    color: rgb(42, 38, 38);
+    text-align: center;
+}
+.signup-footer p a{
+    color: rgb(101, 155, 231);
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to right, white, rgb(162, 156, 156));
+    position: absolute;
+}
+.c1{
+    top: 100px;
+    left: 40px;
+}
+.c2{
+    bottom: 200px;
+    right: 30px;
+}

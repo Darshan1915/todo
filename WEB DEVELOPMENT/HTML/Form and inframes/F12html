@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form and inframes:</title>
+    </head>
+    <body>
+        <p><b>fill the below form:</b></p>
+        <form action="gfghftf.css">
+            <label for="usrname">Username:</label>
+            <input type="text" id="usrname" placeholder="Enter username" size="50" required><br>
+
+            <label for="psw">Passeword:</label>
+            <input type="password" id="psw" placeholder="Enter password" size="50" max="10"><br><br>
+
+            <label for="mail">Enter your mail I'd:</label>
+            <input type="email" id="mail" size="30" max="30" autocomplete="on" required>
+        </form>
+    </body>
+</html>

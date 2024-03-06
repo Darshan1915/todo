@@ -1,0 +1,35 @@
+/*
+Types of selector:
+1.simple:
+   a.element
+   b.ID
+   c.class
+2,universal
+3,grouping
+4.nested   
+*/
+
+
+/* Universal selector :
+if we use univetsal selector and change anything the it gets more priority means it can cange all page style*/
+
+body {
+    font-size: medium;
+    color: rgb(6, 6, 19);
+}
+/* "#" it is imp to define ID */
+#first {
+    color: rgb(255, 149, 0);
+}
+/* "." it is imp to define CLASS */
+.abcd{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: purple;
+}
+.highlight{
+    background-color: yellow;
+}
+.main{
+    font-size: x-large;
+    color: blue;
+}

@@ -1,0 +1,19 @@
+.container{
+    border: 2px solid rgb(232, 18, 25);
+   
+}
+.block1{
+    overflow: auto;
+}
+
+.img1{
+    float: left;
+}
+.img2{
+    float: right;
+}
+
+/*And also we can use= clear:right
+                       clear:left
+                       clear:obth
+*/
