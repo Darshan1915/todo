@@ -1,0 +1,23 @@
+body {
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(rgb(100, 100, 236),white);
+    color: rgb(255, 255, 255);
+}
+#container {
+    border: #ffffff solid;
+    /* margin: 50px; */
+    padding: 50px;
+    text-align: center;
+}
+.main-nav{
+    background-color: rgb(231, 116, 116);
+    /* justify-content: space-between; */
+    padding: 8px;
+}

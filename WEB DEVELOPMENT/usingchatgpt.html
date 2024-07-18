@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posts Page</title>
+    <!-- Include Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Define background image styles */
+        .bg-bricks {
+            background-image: url('https://www.technocrazed.com/wp-content/uploads/2015/12/Brick-wallaper-For-Background-12.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #333; /* Dark text color */
+        }
+
+        /* Customize button colors and animations */
+        .btn-like {
+            background-color: #3182CE; /* Blue */
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-like:hover {
+            background-color: #2c5282; /* Darker blue on hover */
+        }
+
+        .btn-comment {
+            background-color: #CBD5E0; /* Gray */
+            transition: background-color 0.3s ease;
+        }
+
+        .btn-comment:hover {
+            background-color: #a0aec0; /* Darker gray on hover */
+        }
+    </style>
+</head>
+
+<body class="bg-bricks bg-gray-100 p-4">
+    <div class="max-w-2xl mx-auto">
+        <h1 class="text-3xl font-bold text-center mb-8">Posts</h1>
+
+        <!-- Post 1 -->
+        <div class="bg-white rounded-lg shadow-md p-6 mb-4">
+            <h2 class="text-xl font-semibold mb-2">Post Title 1</h2>
+            <p class="text-gray-700 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="flex items-center justify-between">
+                <button class="btn-like text-white px-4 py-2 rounded-lg mr-2 transform transition-transform hover:scale-110">Like</button>
+                <button class="btn-comment px-4 py-2 rounded-lg transform transition-transform hover:scale-110">Comment</button>
+            </div>
+        </div>
+
+        <!-- Post 2 -->
+        <div class="bg-white rounded-lg shadow-md p-6 mb-4">
+            <h2 class="text-xl font-semibold mb-2">Post Title 2</h2>
+            <p class="text-gray-700 mb-4">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <div class="flex items-center justify-between">
+                <button class="btn-like text-white px-4 py-2 rounded-lg mr-2 transform transition-transform hover:scale-110">Like</button>
+                <button class="btn-comment px-4 py-2 rounded-lg transform transition-transform hover:scale-110">Comment</button>
+            </div>
+        </div>
+
+        <!-- Post 3 -->
+        <div class="bg-white rounded-lg shadow-md p-6 mb-4">
+            <h2 class="text-xl font-semibold mb-2">Post Title 3</h2>
+            <p class="text-gray-700 mb-4">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                aliquip ex ea commodo consequat.</p>
+            <div class="flex items-center justify-between">
+                <button class="btn-like text-white px-4 py-2 rounded-lg mr-2 transform transition-transform hover:scale-110">Like</button>
+                <button class="btn-comment px-4 py-2 rounded-lg transform transition-transform hover:scale-110">Comment</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

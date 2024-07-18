@@ -40,14 +40,7 @@ public class ifElseIfstatements
                 }
            
             }
-            // if (flag == 1)
-            // {
-            //     System.out.print( + num + " Number is prime ");
-            // }
-            // else
-            // {
-            //     System.out.print( + num + " Number is not prime ");
-            // }
+            
             System.out.print("\n");
         }
     }    
